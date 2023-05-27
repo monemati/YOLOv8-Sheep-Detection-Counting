@@ -61,13 +61,12 @@ takeoff 40
 python sheep.py
 ```
 - You can watch the demo from [this file](https://github.com/monemati/YOLOv8-Sheep-Detection-Counting/blob/main/resources/demo/Gazebo-Sheep-Detector-Counting-Demo.mp4)
-https://github.com/monemati/YOLOv8-Sheep-Detection-Counting/blob/main/resources/demo/Gazebo-Sheep-Detector-Counting-Demo.mp4
 
-## Result
-
-![alt text](/resources/demo/Aerial-Sheep-01.png "Aerial Sheep")
+## Results
 
 ![alt text](/resources/demo/Gazebo-Sheep-Detector-Counting.png "Gazebo Sheep Detector Counting")
+
+![alt text](/resources/demo/Aerial-Sheep-01.png "Aerial Sheep")
   
 ## Acknowledgement
 - https://github.com/ultralytics/ultralytics
