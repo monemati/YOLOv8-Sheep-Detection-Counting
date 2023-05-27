@@ -4,8 +4,8 @@ YOLOv8 Sheep Detection and Counting. Simulated on Gazebo.
 ## Introduction
 This repository contains a Sheep Detector and Counter trained by [YOLOv8](https://github.com/ultralytics/ultralytics) algorithm with [Sheep Dataset](https://universe.roboflow.com/riis/aerial-sheep/dataset/1) from Roboflow.
 
-## Train Result
-Train result on YOLOv8n. Weights are provided in resources/weights direcotry.
+## Train Results
+Train results on YOLOv8n. Weights are provided in resources/weights direcotry.
 
 ![alt text](/resources/demo/val_batch1_pred.jpg "YOLOv8n Train Result")
 
