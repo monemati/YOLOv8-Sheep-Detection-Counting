@@ -1,5 +1,5 @@
-# YOLOv8 Sheep Detection and Counting
-YOLOv8 Sheep Detection and Counting. Simulated on Gazebo.
+# YOLOv8 Aerial Sheep Detection and Counting
+YOLOv8 Aerial Sheep Detection and Counting. Simulated on Gazebo.
 
 ## Introduction
 This repository contains a Sheep Detector and Counter trained by [YOLOv8](https://github.com/ultralytics/ultralytics) algorithm with [Sheep Dataset](https://universe.roboflow.com/riis/aerial-sheep/dataset/1) from Roboflow.
