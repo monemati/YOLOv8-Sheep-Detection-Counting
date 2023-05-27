@@ -6,6 +6,8 @@ This repository contains a Sheep Detector and Counter trained by [YOLOv8](https:
 
 ## Train Result
 Train result on YOLOv8n. Weights are provided in resources/weights direcotry.
+![alt text](/resources/demo/val_batch1_pred.jpg "YOLOv8n Train Result")
+
 ![alt text](/resources/demo/results.png "YOLOv8n Train Result")
 
 ## Installation
