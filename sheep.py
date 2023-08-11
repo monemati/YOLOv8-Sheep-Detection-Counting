@@ -56,10 +56,10 @@ class camera_1:
             
             if cv2.waitKey(1) & 0xFF == ord("q"):
                 break
-        cv2.line(img, (width - 500,25), (width,25), [85,45,255], 40)
-        cv2.putText(img, f'Number of sheeps: {len(unique_id)}', (width - 500, 35), 0, 1, [225, 255, 255], thickness=2, lineType=cv2.LINE_AA)
-        resized_img = ResizeWithAspectRatio(img, height=720)
-        cv2.imshow('Detected Frame', resized_img)
+    cv2.line(img, (width - 500,25), (width,25), [85,45,255], 40)
+    cv2.putText(img, f'Number of sheeps: {len(unique_id)}', (width - 500, 35), 0, 1, [225, 255, 255], thickness=2, lineType=cv2.LINE_AA)
+    resized_img = ResizeWithAspectRatio(img, height=720)
+    cv2.imshow('Detected Frame', resized_img)
     cv2.waitKey(3)
 
 def main():
