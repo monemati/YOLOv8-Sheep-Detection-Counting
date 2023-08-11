@@ -6,6 +6,10 @@ import rospy
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge, CvBridgeError
 
+# Load the YOLOv8 model
+model = YOLO('resources/weights/yolov8m-sheep.pt')
+unique_id=set()
+
 def ResizeWithAspectRatio(image, width=None, height=None, inter=cv2.INTER_AREA):
     dim = None
     (h, w) = image.shape[:2]
@@ -20,12 +24,6 @@ def ResizeWithAspectRatio(image, width=None, height=None, inter=cv2.INTER_AREA):
         dim = (width, int(h * r))
 
     return cv2.resize(image, dim, interpolation=inter)
-
-
-# Load the YOLOv8 model
-model = YOLO('resources/weights/yolov8m-sheep.pt')
-unique_id=set()
-
 
 class camera_1:
 
