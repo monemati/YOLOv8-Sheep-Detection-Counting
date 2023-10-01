@@ -34,7 +34,7 @@ while cap.isOpened():
 
     if success:
         # Run YOLOv8 inference on the frame
-        results = model.track(frame, tracker="bytetrack.yaml") 
+        results = model.track(frame, tracker="bytetrack.yaml", persist=True) 
         img = results[0].plot()
         height, width, _ = img.shape
         # print(results)
