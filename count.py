@@ -25,7 +25,7 @@ model = YOLO('resources/weights/yolov8m-sheep.pt')
 unique_id=set()
 # Open the image file
 file_path = "resources/images/01.jpg"
-results = model.track(file_path, tracker="bytetrack.yaml")
+results = model.track(file_path, tracker="bytetrack.yaml", persist=True)
 img = results[0].plot()
 height, width, _ = img.shape
 
