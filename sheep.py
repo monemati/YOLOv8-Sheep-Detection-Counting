@@ -39,7 +39,7 @@ class camera_1:
       rospy.logerr(e)
     
     image = cv_image
-    results = model.track(image, tracker="bytetrack.yaml")
+    results = model.track(image, tracker="bytetrack.yaml", persist=True)
     img = results[0].plot()
     height, width, _ = img.shape
     if  results[0].boxes.id !=  None:
